@@ -11,5 +11,5 @@ with con:
 	rows = cur.fetchall()
   	df = pd.DataFrame(rows)
 
-  	print df 
+  	print "The Cities that are warmest in July are: %s" % df 
 
